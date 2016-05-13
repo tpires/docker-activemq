@@ -1,11 +1,11 @@
 ## ActiveMQ standalone
-## VERSION 5.10.2
+## VERSION 5.13.3
 
 ## Based on @pires jre docker image
-FROM pires/docker-jre
+FROM quay.io/pires/docker-jre:8u92
 MAINTAINER Tiago Pires, tandrepires@gmail.com
 
-ENV AMQ_VERSION 5.10.2
+ENV AMQ_VERSION 5.13.3
 ENV AMQ_HOME /opt/apache-activemq
 
 # Install ActiveMQ
